@@ -3,6 +3,7 @@ alpine cmd docker
 
 
 ------------------------------------------------------------------------------
+0.apt-get update && sudo apt install docker.io -y
 1  docker run --name docker-nginx42 -p 80:80 nginx
     2  docker ps -a
     3  docker rm -f 3897d770918f
@@ -48,7 +49,7 @@ vi index.html
   <body>
     <div class="container">
       <h1>Hello Learning team batch42 with Sid , Rahul , bhavik , Nisha</h1>
-      <p>This nginx page is brought to you by Docker in front of sri ram arun ravi naveen sabita </p>
+      <p>This nginx page is brought to you by Docker in front of Azmat </p>
     </div>
   </body>
 </html>
